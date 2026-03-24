@@ -9,7 +9,7 @@ const facts = [
 ];
 
 function displayFacts() {
-    const factContainer = document.getElementById('fact-container');
+    const factContainer = document.getElementById('factsContainer');
     facts.forEach((fact, index) => {
         const factElement = document.createElement('p');
         factElement.textContent = `${index + 1}: ${fact}`;
