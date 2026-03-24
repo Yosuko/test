@@ -1,1 +1,74 @@
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; } .container { max-width: 1200px; margin: 0 auto; padding: 20px; } header { text-align: center; color: white; padding: 40px 0; } header h1 { font-size: 3em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); } .subtitle { font-size: 1.2em; margin-top: 10px; opacity: 0.9; } main { min-height: 60vh; } .facts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 40px 0; } .fact-card { background: white; border-radius: 10px; padding: 25px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer; } .fact-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.15); } .fact-card h3 { color: #667eea; margin-top: 0; } .fact-card p { color: #555; line-height: 1.6; } footer { text-align: center; color: white; padding: 20px; margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.2); }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #032de7 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+main {
+    min-height: 60vh;
+}
+
+.facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.fact-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.fact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.fact-card h3 {
+    color: #667eea;
+    margin-top: 0;
+}
+
+.fact-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
